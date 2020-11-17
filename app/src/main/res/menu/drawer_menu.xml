@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ClH"
+            android:icon="@drawable/ic_delete_black_24dp"
+            android:title="Clear history" />
+        <item
+            android:id="@+id/OthD"
+            android:icon="@drawable/ic_keyboard_black_24dp"
+            android:title="Other digits" />
+        <item
+            android:id="@+id/Notes"
+            android:icon="@drawable/notes"
+            android:title="Notes" />
+        <item
+            android:id="@+id/Ints"
+            android:icon="@drawable/guide"
+            android:title="Guide" />
+        <item
+            android:id="@+id/LogOut"
+            android:icon="@drawable/logout"
+            android:title="Log out" />
+    </group>
+</menu>
